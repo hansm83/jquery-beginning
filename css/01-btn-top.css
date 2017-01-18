@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*! 01-btn-top.css */
+
+body {margin:0;padding:0;background-color:#f4f4f4;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {position:relative;padding:0;margin:30px auto 0;padding:0 30px 30px;}
+.h_tit {margin:0 0 0 10px;padding:0;text-align:left;font-weight:400;font-size:42px;line-height:42px;}
+.txt {margin:10px;}
+.fixed {position:fixed;top:0;left:0;}
+.btn-top {position:fixed;bottom:10px;right:10px;padding:10px 5px;background:rgba(255,255,255,0.8);border:1px solid #666;text-decoration:none;}
+.btn-top .txt{font-size:12px;color:#666;}
+
+
