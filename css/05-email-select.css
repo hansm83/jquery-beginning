@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*! 01-btn-top.css */
+
+body {margin:0;padding:0;background-color:#f4f4f4;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {position:relative;padding:0;margin:0 auto;}
+.h_tit {padding:30px 30px 20px;margin:0;text-align:left;font-weight:400;font-size:42px;line-height:42px;}
+.h_cont {padding:0 30px;}
+.user_email {}
+.user_email .tit {}
+.input_wrap {vertical-align:top;}
+.input_wrap input {margin:0;padding:5px 10px;}
+.input_wrap select {margin:0;height:29px;}
