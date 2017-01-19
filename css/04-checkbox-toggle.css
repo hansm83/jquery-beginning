@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*! 01-btn-top.css */
+
+body {margin:0;padding:0;background-color:#f4f4f4;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {position:relative;padding:0;margin:0 auto;}
+.h_tit {padding:30px 30px 20px;margin:0;text-align:left;font-weight:400;font-size:42px;line-height:42px;}
+.h_cont {padding:0 30px;}
+.btn_checkbox {display:inline-block;padding:5px 10px;background-color:#eee;border:1px solid #aaa;border-radius:3px;}
+.btn_checkbox .ui_check {-webkit-appearance:none;margin:0;padding:0;width:18px;height:18px;background-color:#aaa;border-radius:100%;text-align:center;line-height:18px;outline:none;}
+.btn_checkbox .ui_check:before {content:"\f208";color:#fff;}
+.btn_checkbox.on {border-color:blue;}
+.btn_checkbox.on .ui_check {background-color:blue;}
+.btn_checkbox.on .ui_check:before {content:"\f123";color:#fff;}
+.btn_checkbox .ui_label {}
+
+.ico {display:inline-block;font-family:"Ionicons";font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.btn_tip_toggle .ico:before {content:"\f123";color:blue;}
+.btn_tip_toggle.on .ico:before {content:"\f126";}
