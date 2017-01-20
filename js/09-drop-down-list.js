@@ -8,7 +8,7 @@
 	var  $drop_down_list = $('.drop_down_list'),
 	     $btn_link = $drop_down_list.find('.btn_link'),
 		 $ul_list = $drop_down_list.find('.ul_list'),
-		 $bg_drop_down = $('.bg_drop_down');
+		 $bg_drop_down = $drop_down_list.find('.bg_drop_down');
 
 	$btn_link.on('click', function(e) {
 		e.preventDefault();
