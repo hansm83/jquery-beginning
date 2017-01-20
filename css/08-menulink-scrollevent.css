@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none;vertical-align:middle;}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body,th,td,input,select,textarea,button {font-family:inherit;} 
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,var,I {font-style:normal;font-weight:normal}
+em {font-style:normal;}
+
+/* Style */
+body {margin:0;padding:0;background-color:#fff;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {position:relative;display:block;clear:both;*zoom:1;}
+.wrap:after {content:'';display:block;clear:both;}
+.lnb {position:fixed;float:left;width:200px;}
+.lnb .h_tit {padding:20px;}
+.lft_navi {border-top:1px solid #aaa;}
+.lft_navi .menu_event {padding-bottom:10px;border-bottom:1px solid #aaa;}
+.lft_navi .menu_event.on .ico,
+.lft_navi .menu_event.on .ico:before {color:#4F8EF7;}
+.lft_navi .menu_event .tit {display:block;padding:10px 20px;font-size:21px;font-weight:bold;color:#333;}
+.lft_navi .menu_event .depth2 {border-top:1px solid #aaa;}
+.lft_navi .link_event {padding-top:10px;}
+.lft_navi .link_event.on {}
+.lft_navi .link_event .link {display:block;padding-left:30px;color:#666;}
+.lft_navi .link_event.on .link {color:#4F8EF7;;}
+.rgt_cont {margin-left:200px;padding-bottom:400px;border-left:1px solid #aaa;}
+.rgt_cont .group {padding:30px;border-bottom:1px solid #aaa;}
+.rgt_cont .h_tit {padding-bottom:20px;}
+.rgt_cont .sec {height:300px;padding:20px;border-top:1px solid #aaa;}
+
+
+.ico {display:inline-block;position:relative;font-family:"Ionicons";font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.ico:before {position:absolute;top:50%;right:20px;margin-top:-9px;content:"\f120";color:#333;}
