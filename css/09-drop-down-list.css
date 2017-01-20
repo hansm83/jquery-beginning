@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none;vertical-align:middle;}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body,th,td,input,select,textarea,button {font-family:inherit;} 
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,var,I {font-style:normal;font-weight:normal}
+em {font-style:normal;}
+
+/* Style */
+body {margin:0;padding:0;background-color:#fff;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {width:500px;margin:60px auto;}
+.h_tit {text-align:center;margin-bottom:30px;}
+
+.drop_down_wrap {}
+.drop_down_list {position:relative;width:200px;text-align:left;margin:0 auto;}
+.drop_down_list .btn_link {position:absolute;top:0;left:0;z-index:20;width:100%;height:48px;text-indent:10px;font-size:18px;border:1px solid #aaa;text-align:left;line-height:48px;}
+.drop_down_list .ul_list {display:none;position:absolute;top:49px;left:0;z-index:20;width:100%;border:1px solid #aaa;}
+.drop_down_list .ul_list li {}
+.drop_down_list .ul_list .link {display:block;padding:10px;font-size:14px;border-top:1px solid #eee;}
+.bg_drop_down {position:fixed;top:0;left:0;z-index:10;width:100%;height:100%;background:rbga(225,225,225,0);}
+
+.drop_down_list .ico {display:inline-block;font-family:"Ionicons";font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.drop_down_list .ico:before {position:absolute;top:0;right:20px;content:"\f123";color:#333;}
+.drop_down_list .ico.on:before {content:"\f126";color:#4F8EF7;}
+
