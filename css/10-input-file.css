@@ -19,9 +19,9 @@ body {margin:0;padding:0;background-color:#fff;body font-family: "Spoqa Han Sans
 .wrap {width:500px;margin:60px auto;}
 .h_tit {text-align:center;margin-bottom:30px;}
 
-.input_file {display:block;clear:both;*zoom:1;vertical-align:top;}
+.input_file {position:relative;display:block;clear:both;*zoom:1;vertical-align:top;}
 .input_file:after {display:block;clear:both;content:"";}
 .input_file [type="file"] {overflow:hidden;position:absolute;top:-1px;z-index:-1;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);border:0 none;}
-.input_file .file_name {float:left;width:68%;height:33px;background:#fff;border:1px solid #eee;line-height:35px;text-indent:10px;font-size:14px;color:#333;}
+.input_file .file_name {float:left;width:68%;height:33px;background:#fff;border:1px solid #333;line-height:35px;text-indent:10px;font-size:14px;color:#333;}
 .input_file .file_label {display:block;margin-left:70%;width:30%;height:35px;font-size:14px;line-height:35px;background-color:#4F8EF7;color:#fff;text-align:center;cursor:pointer;}
 .input_file .file_upload {}

@@ -18,11 +18,9 @@
 	function fileLoad() {
 		$.each($fileBox, function(idx){
 			var $this = $fileBox.eq(idx), // .input_file
-				$btnUpload = $this.find('[type="file"]'), 
-				$label = $this.find('.file_label');
+				$btnUpload = $this.find('[type="file"]'), // .input_upload
+				$label = $this.find('.file_label'); 
 
-			console.log($btnUpload);
-			
 			$btnUpload.on('change', function(e) {
 				e.preventDefault();
 				var $target = $(this),
