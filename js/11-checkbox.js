@@ -12,6 +12,7 @@
 		} else {
 		  $input.parent().removeClass('checked');
 		}
+
 	};
 	checkBox.on('change', 'input', function() {
 		addClassCheckBox($(this));

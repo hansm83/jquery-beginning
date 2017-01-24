@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none;vertical-align:middle;}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body,th,td,input,select,textarea,button {font-family:inherit;} 
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,var,I {font-style:normal;font-weight:normal}
+em {font-style:normal;}
+
+/* Style */
+body {margin:0;padding:0;background-color:#fff;body font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Source Sans Pro", Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif; font-size: 16px; line-height: 1.5; color: #4d5256; font-weight: 400; -webkit-font-smoothing: antialiased; word-break: keep-all; }
+.wrap {position:relative;}
+.header {position:fixed;width:100%;background:rgba(255,255,255,0.8);border-bottom:1px solid #aaa;}
+.header .inner {display:block;clear:both;*zoom:1;width:900px;height:50px;margin:0 auto;padding-top:10px;}
+.header .inner:after {content:'';display:block;clear:both;}
+.header .h_tit {display:inline-block;font-size:24px;float:left;}
+.gnb_navi {margin-top:10px;margin-left:500px;}
+.gnb_navi .menu_event {float:left;margin-left:63px;}
+.gnb_navi .menu_event.on .ico,
+.gnb_navi .menu_event.on .ico:before {color:#4F8EF7;}
+.content {width:100%;margin:0 auto;}
+.content .group {width:100%;border-bottom:1px solid #aaa;}
+.content .h_tit {width:900px;margin:0 auto 0;padding:100px 0 20px;font-size:20px;color:#666;}
+.content .sec {width:900px;height:300px;margin:0 auto;padding:20px 0;border-top:1px solid #aaa;color:#999;}
+
+
+.ico {padding-left:20px;display:inline-block;position:relative;font-family:"Ionicons";font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.ico:before {position:absolute;top:50%;left:0;margin-top:-9px;content:"\f120";color:#333;}
+.tit1.ico:before {content:"\f279"}
+.tit2.ico:before {content:"\f24e"}
+.tit3.ico:before {content:"\f141"}
