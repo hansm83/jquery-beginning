@@ -13,3 +13,5 @@ jquery basics tutorial<br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/09-drop-down-list.html">09-drop-down-list.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/10-input-file.html">10-input-file.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/11-checkbox.html">11-checkbox.html</a><br>
+<a href="http://aiie.pe.kr/github/jquery-beginning/12-menulink-scrollevent-horizontal.html">12-menulink-scrollevent-horizontal.html</a><br>
+
