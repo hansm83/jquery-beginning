@@ -8,7 +8,7 @@ jquery basics tutorial<br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/04-checkbox-toggle.html">04-checkbox-toggle.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/05-email-select.html">05-email-select.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/06-select-sorting.html">06-select-sorting.html</a><br>
-jquery code 참고 출처: <a href="http://webclub.tistory.com/235">http://webclub.tistory.com/235 [Web Club]</a><br>
+(jquery code 참고 출처: <a href="http://webclub.tistory.com/235">http://webclub.tistory.com/235 [Web Club]</a>)<br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/07-accordion.html">07-accordion.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/08-menulink-scrollevent.html">08-menulink-scrollevent.html</a><br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/09-drop-down-list.html">09-drop-down-list.html</a><br>
