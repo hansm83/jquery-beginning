@@ -17,6 +17,4 @@ jquery basics tutorial<br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/13-thumbnail-list.html">13-thumbnail-list.html</a> (jquery code 참고 출처: <a href="http://webclub.tistory.com/561">http://webclub.tistory.com/561 [Web Club]</a>)<br>
 <a href="http://aiie.pe.kr/github/jquery-beginning/14-banner-rolling.html">14-banner-rolling.html</a> (jquery code 참고 출처: <a href="http://webclub.tistory.com/562">http://webclub.tistory.com/562 [Web Club]</a>)<br>
 
-test
-
 
